@@ -1,21 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <h1>Hello world</h1>
-        <h1>Hello japan</h1>
-        <h1>Hello japan</h1>
-        <h1>Hello japan</h1>
-        <h1>Hello japan</h1>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - ทัศดนัย หอมหวล</title>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: #121212;
+            color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 16px;
+            padding: 32px;
+            max-width: 450px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+        }
+        .greeting {
+            color: #00d2ff;
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+        h1 {
+            margin: 0 0 5px 0;
+            font-size: 1.8rem;
+            color: #ffffff;
+        }
+        .subtitle {
+            color: #aaaaaa;
+            font-size: 1rem;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #333;
+        }
+        .info-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .info-list li {
+            background-color: #262626;
+            margin-bottom: 12px;
+            padding: 12px 16px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .label {
+            color: #bbbbbb;
+            font-size: 0.95rem;
+        }
+        .value {
+            font-weight: 600;
+            color: #ffffff;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 24px;
+            font-size: 0.85rem;
+            color: #777777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="greeting">Hello World! 👋 Nice to meet you!</div>
         <h1>ทัศดนัย หอมหวล</h1>
-        <h1>แผนกวิชา เทคโนโลยีสารสนเทศ ปวส 2</h1>
-        <h1>งานอดิเรก เล่นเกมอ่านหนังสือ</h1>
-        <h1>น้ำหนัก 65 ส่วนสูง 169</h1>
-        <h1>ชอบกิน ขนม สีที่ชอบ สีดำ</h1>
-        <h1>ไม่ชอบ งู ตุ๊กแก</h1>
-    </body>
+        <div class="subtitle">🎓 แผนกวิชา เทคโนโลยีสารสนเทศ ปวส. 2</div>
+
+        <ul class="info-list">
+            <li>
+                <span class="label">📏 น้ำหนัก / ส่วนสูง</span>
+                <span class="value">65 กก. / 169 ซม.</span>
+            </li>
+            <li>
+                <span class="label">🎮 งานอดิเรก</span>
+                <span class="value">เล่นเกม, อ่านหนังสือ</span>
+            </li>
+            <li>
+                <span class="label">🍪 ของที่ชอบ</span>
+                <span class="value">ขนม</span>
+            </li>
+            <li>
+                <span class="label">🖤 สีที่ชอบ</span>
+                <span class="value">สีดำ</span>
+            </li>
+            <li>
+                <span class="label">🚫 สิ่งที่ไม่ชอบ</span>
+                <span class="value">งู, ตุ๊กแก</span>
+            </li>
+        </ul>
+
+        <div class="footer">Hello Japan 🇯🇵 • IT Student Profile</div>
+    </div>
+
+</body>
 </html>

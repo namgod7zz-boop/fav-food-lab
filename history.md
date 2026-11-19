@@ -20,4 +20,4 @@
 | **สิ่งที่กลัว / ไม่ชอบ** | 🐍 งู, 🦎 ตุ๊กแก |
 
 ---
-> *"Keep learning and keep coding!"* 🚀
+> *"Hello My name is Taddanai Homhuan Nice to meet you"* 🚀
